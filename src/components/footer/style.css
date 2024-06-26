@@ -1,0 +1,33 @@
+footer {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.footer-social h1 {
+  font-size: 40px;
+}
+.footer-social img {
+  padding: 20px;
+}
+.footer-social p {
+  margin-top: 6px;
+}
+
+nav.footer {
+  padding: 0 65px;
+}
+nav.footer li {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  padding-top: 9px;
+}
+
+.footer-nav {
+  margin-left: 65px;
+  display: flex;
+  text-align: left;
+}
+.footer-nav p {
+  font-size: 20px;
+  font-weight: 700;
+}
