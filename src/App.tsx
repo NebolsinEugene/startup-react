@@ -4,7 +4,7 @@ import Header from "./components/header/Header.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import Home from "./pages/Home.tsx";
 import Investors from "./pages/Investors.tsx";
-import Projects from "./pages/Projects.tsx";
+import ProjectPage from "./pages/ProjectPage/ProjectPage.tsx";
 import "./styles/style.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/projects" element={<ProjectPage />}></Route>
           <Route path="/investors" element={<Investors />}></Route>
         </Routes>
         <Footer />

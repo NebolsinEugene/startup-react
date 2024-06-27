@@ -4,7 +4,8 @@ import shop from "./../images/shop.jpg";
 import ProjectCard, { ProjectCardProps } from "./ProjectCard.tsx";
 
 const ProjectCardMocks: ProjectCardProps[] = [
-  { id: 1234,
+  {
+    id: 1234,
     title: "Семейный парк развлечений",
     country: "Россия, Краснодар",
     industry: "Обустройство",
@@ -12,7 +13,8 @@ const ProjectCardMocks: ProjectCardProps[] = [
     priceMax: 50000000,
     imageSource: park
   },
-  { id: 1464,
+  {
+    id: 1464,
     title: "Строительство нового магазина",
     country: "Россия, Москва",
     industry: "Строительство",
@@ -20,7 +22,8 @@ const ProjectCardMocks: ProjectCardProps[] = [
     priceMax: 100000000,
     imageSource: shop
   },
-  { id: 1234,
+  {
+    id: 1234,
     title: "Семейный парк развлечений",
     country: "Россия, Краснодар",
     industry: "Обустройство",
@@ -28,7 +31,8 @@ const ProjectCardMocks: ProjectCardProps[] = [
     priceMax: 50000000,
     imageSource: park
   },
-  { id: 1464,
+  {
+    id: 1464,
     title: "Строительство нового магазина",
     country: "Россия, Москва",
     industry: "Строительство",
@@ -36,7 +40,8 @@ const ProjectCardMocks: ProjectCardProps[] = [
     priceMax: 100000000,
     imageSource: shop
   },
-  { id: 1234,
+  {
+    id: 1234,
     title: "Семейный парк развлечений",
     country: "Россия, Краснодар",
     industry: "Обустройство",
@@ -44,7 +49,8 @@ const ProjectCardMocks: ProjectCardProps[] = [
     priceMax: 50000000,
     imageSource: park
   },
-  { id: 1464,
+  {
+    id: 1464,
     title: "Строительство нового магазина",
     country: "Россия, Москва",
     industry: "Строительство",
@@ -57,21 +63,19 @@ const ProjectCardMocks: ProjectCardProps[] = [
 
 const ProjectMocks = () => {
   return (
-    <ul className="projects">
-      <ProjectCards/>
-    </ul>
+    <ProjectCards />
   );
 }
 
 const ProjectCards = () => ProjectCardMocks.map((mock: ProjectCardProps) => (
   <ProjectCard
-    id = {mock.id}
-    title = {mock.title}
-    country = {mock.country}
-    industry = {mock.industry}
-    priceMin = {mock.priceMin}
-    priceMax = {mock.priceMax}
-    imageSource = {mock.imageSource}
+    id={mock.id}
+    title={mock.title}
+    country={mock.country}
+    industry={mock.industry}
+    priceMin={mock.priceMin}
+    priceMax={mock.priceMax}
+    imageSource={mock.imageSource}
   />
 ))
 

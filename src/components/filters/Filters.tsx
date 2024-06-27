@@ -1,47 +1,21 @@
 import React from "react";
+import classes from "./Filters.module.css"
+import FilterSelect from "./FilterSelect.tsx";
+import FilterInput from "./FilterInput/FilterInput.tsx";
 
 const Filters = () => {
     return (
-        <div className="filters">
-            <h3>Фильтр</h3>
-            <div className="industry">
-                <p>Отрасль</p>
-                <input
-                    id="industry"
-                    type="text"
-                    placeholder="Выберите отрасль"
-                ></input>
-            </div>
+        <div className={classes.filters}>
+            <div className={classes.title}>Фильтр</div>
+            <FilterSelect title="Отрасль" placeholder="Выберите отрасль" />
+            <FilterSelect title="Страна" placeholder="Выберите страну" />
 
-            <div className="country">
-                <p>Страна</p>
-                <input
-                    id="country"
-                    type="text"
-                    placeholder="Выберите страну"
-                ></input>
-            </div>
-
-            <div className="stage">
-                <p>Стадия реализации проекта</p>
-                <input id="stage" type="text" placeholder="Выберите стадию"></input>
-            </div>
-
-            <div className="volume">
-                <p>Объем инвестирования от, руб.</p>
-                <input id="volume" type="text"></input>
-            </div>
-
-            <div className="term-from">
-                <p>Срок инвестирования от, лет</p>
-                <input id="term-from" type="text"></input>
-            </div>
-
-            <div className="term-to">
-                <p>Срок инвестирования до, лет</p>
-                <input id="term-to" type="text"></input>
-            </div>
-            <button id="clearButton">Сбросить фильтры</button>
+            <FilterInput title="Стадия реализации проекта" placeholder="Выберите стадию" />
+            <FilterInput title="Объем инвестирования от, руб." />
+            <FilterInput title="Срок инвестирования от, лет" />
+            <FilterInput title="Срок инвестирования до, лет" />
+            
+            <button className={classes.clear_filters} id="clearButton">Сбросить фильтры</button>
         </div>
     );
 }

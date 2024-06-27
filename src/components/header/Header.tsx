@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import BtnDarkMode from "../btnDarkMode/BtnDarkMode.tsx";
+import DarkModeButton from "../DarkModeButton/DarkModeButton.tsx";
 import { NavLink } from "react-router-dom";
 
 function Header() {
@@ -44,7 +44,7 @@ function Header() {
         <button className="reg-btn" name="log-in">
           Войти
         </button>
-        <BtnDarkMode />
+        <DarkModeButton />
       </div>
     </header>
   );
