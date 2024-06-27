@@ -1,4 +1,4 @@
-// import startvideo from "/public/video/startvideo.mp4";
+import React from 'react';
 import factory from "./../images/factory.svg";
 import MoscowExchange from "./../images/MoscowExchangeLogo.svg";
 import SkolkovoFoundation from "./../images/LogooftheSkolkovoFoundation.svg";
@@ -80,7 +80,7 @@ const Home = () => {
               <h2>Наши партнеры</h2>
               <div className="scroll-parent">
                 <div className="scroll-element primary">
-                  <img src={factory} alt="damilola jerugba" />
+                  <img src={factory} alt="" />
                   <img src={MoscowExchange} alt="tosin jerugba" />
                   <img src={logo} alt="fiyin jerugba" />
                   <img src={logofinal} alt="feyikemi jerugba" />

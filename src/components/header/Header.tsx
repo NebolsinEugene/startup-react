@@ -1,6 +1,6 @@
+import React from "react";
 import "./style.css";
-import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode.tsx";
 import { NavLink } from "react-router-dom";
 
 function Header() {

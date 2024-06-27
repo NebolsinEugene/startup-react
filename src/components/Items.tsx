@@ -1,3 +1,5 @@
+import React from "react"
+
 const Items = () => {
   return (
     <section className="items">

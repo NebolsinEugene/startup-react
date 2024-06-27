@@ -1,3 +1,4 @@
+import React from 'react';
 import bakery from "./../images/bakery.jpg";
 
 const Investors = () => {
