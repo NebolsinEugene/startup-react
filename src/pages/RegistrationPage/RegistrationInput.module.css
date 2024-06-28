@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+.title {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    text-align: start;
+}
+
+.required_mark {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    color: red;
+    padding-left: 10px;
+}
+
+.input {
+    height: 53px;
+    width: 330px;
+    border-radius: 4px;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.5);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.5)
+}

@@ -3,7 +3,6 @@
     margin-right: auto;
     margin-left: auto;
     display: flex;
-
     justify-content: center;
     text-align: center;
 }
@@ -26,9 +25,8 @@ h4 {
 .title_row {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    margin-right: auto;
-    margin-left: 265px;
+    justify-content: center;
+    margin-right: 250px;
     margin-top: 115px;
     margin-bottom: 125px;
 }
@@ -59,5 +57,7 @@ h4 {
     font-family: "Jura", sans-serif;
     font-size: 26px;
     margin-top: 85px;
-    margin-left: 200px;
+    margin-left: 230px;
+    border-style: none;
+    background-color: rgba(217, 217, 217, 1);
 }

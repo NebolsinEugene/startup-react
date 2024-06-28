@@ -1,0 +1,63 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+.title {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    text-align: start;
+}
+
+.required_mark {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    color: red;
+    padding-left: 10px;
+}
+
+.button_content{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.button_load {
+    height: 24px;
+    width: 109px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(0, 124, 215, 1);
+    border-style: none;
+    background-color: white;
+}
+
+.button_remove {
+    height: 24px;
+    width: 83px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(251, 107, 107, 1);
+    border-style: none;
+    background-color: white;
+}
+
+.limitation {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
