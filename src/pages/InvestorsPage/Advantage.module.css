@@ -1,0 +1,10 @@
+.adv {
+    padding: 38px 24px 24px 24px;
+    background: #fff;
+    box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.06);
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,15 +1,17 @@
 import React from 'react';
-import bakery from "./../images/bakery.jpg";
+import bakery from "./../../images/bakery.jpg";
+import classes from "../InvestorsPage/Investors.module.css";
+import Advantage from './Advantage.tsx';
 
 const Investors = () => {
   return (
     <>
-      <div className="intro">
-        <div className="container">
-          <div className="intro_media">
-            <img className="intro_media-pic" src={bakery} alt="бизнес" />
+      <div className={classes.intro}>
+        <div className={classes.container}>
+          <div className={classes.intro_content}>
+            <img className={classes.intro_media_pic} src={bakery} alt="бизнес" />
           </div>
-          <div className="intro_content-pic">
+          <div className={classes.intro_content_pic}>
             <h3>
               Увеличивайте капитал, инвестируя в займы бизнесам, которые прошли
               тщательный отбор
@@ -17,45 +19,27 @@ const Investors = () => {
           </div>
         </div>
       </div>
-
       <div className="advantages">
         <div className="container">
           <div className="pluses">
             <h2>Наши преимущества</h2>
-
             <div className="content-center">
-              <div className="adv">
-                <div className="name">Доходность</div>
-                <div className="text">
-                  Инвестируя в стартапы, инвестиционный доход может составить
-                  30-40% годовых.
-                </div>
-              </div>
-              <div className="adv">
-                <div className="name">Надежность</div>
-                <div className="text">
-                  Кредитные эксперты сервиса тщательно проверяют заемщика и его
-                  бизнес.
-                </div>
-              </div>
-              <div className="adv">
-                <div className="name">Удобство</div>
-                <div className="text">
-                  Принять инвестиционное предложение онлайн без посещения офиса.
-                </div>
-              </div>
-              <div className="adv">
-                <div className="name">Поддержка</div>
-                <div className="text">
-                  Помогаем в подготовке полного комплекта документов,
-                  контролируем исполнение обязательств.
-                </div>
-              </div>
+              <Advantage
+                header='Доходность'
+                content='Инвестируя в стартапы, инвестиционный доход может составить 30-40% годовых' />
+              <Advantage
+                header='Надежность'
+                content='Кредитные эксперты сервиса тщательно проверяют заемщика и его бизнес.' />
+              <Advantage
+                header='Удобство'
+                content='Принять инвестиционное предложение онлайн без посещения офиса.' />
+              <Advantage
+                header='Поддержка'
+                content='Помогаем в подготовке полного комплекта документов, контролируем исполнение обязательств.' />
             </div>
           </div>
         </div>
-      </div>
-
+      </div >
       <div className="how-to-start">
         <div className="container">
           <div className="steps">

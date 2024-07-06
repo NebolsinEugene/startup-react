@@ -110,16 +110,6 @@ p {
   font-size: 26px;
 }
 
-.container {
-  max-width: 1400px;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 button.reg-btn {
   font-size: 20px;
   padding: 13px 30px;
@@ -145,65 +135,6 @@ button.reg-btn:before {
 
 button.reg-btn:hover:before {
   width: 100%;
-}
-
-.intro {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-}
-
-.intro_media {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: #ccc;
-  background-size: cover;
-}
-
-.intro_media::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 5;
-  content: "";
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.intro_media-video, .intro_media-pic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transform: translate(-50%, -50%);
-}
-
-.intro_content {
-  z-index: 10;
-  color: white;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-}
-.intro_content h2 {
-  font-size: 128px;
-  color: #fff;
-}
-.intro_content p {
-  font-size: 26px;
-  max-width: 617px;
-  text-align: center;
-  margin-top: 20px;
 }
 
 .partners {
@@ -338,19 +269,6 @@ button.reg-btn:hover:before {
   margin: 0;
 }
 
-.intro_content-pic {
-  z-index: 10;
-  color: white;
-  align-items: left;
-  flex-direction: column;
-  display: flex;
-}
-.intro_content-pic h3 {
-  max-width: 720px;
-  text-align: left;
-  padding: 0;
-}
-
 .grid-center {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -386,28 +304,10 @@ button.reg-btn:hover:before {
   margin-bottom: 20px;
 }
 
-.text {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.pluses {
-  margin: 150px 0 150px;
-}
-.pluses h2 {
-  padding: 30px;
-}
-
 .content-center {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 32px;
-}
-
-.adv {
-  padding: 38px 24px 24px 24px;
-  background: #fff;
-  box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.06);
 }
 
 /* Projects  */

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import Home from "./pages/Home.tsx";
-import Investors from "./pages/Investors.tsx";
+import Investors from "./pages/InvestorsPage/Investors.tsx";
 import ProjectPage from "./pages/ProjectPage/ProjectPage.tsx";
 import Registration from './pages/RegistrationPage/Registration.tsx';
 import "./styles/style.css";
