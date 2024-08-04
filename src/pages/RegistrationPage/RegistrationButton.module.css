@@ -1,0 +1,10 @@
+.button{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgba(217, 217, 217, 1);
+    border-style: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}

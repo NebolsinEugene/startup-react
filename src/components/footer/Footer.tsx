@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.css";
 import vk from "./../../images/vk.svg";
 import tg from "./../../images/tg.svg";

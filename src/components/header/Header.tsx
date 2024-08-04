@@ -1,9 +1,11 @@
+import React from "react";
 import "./style.css";
-import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-
-import { NavLink } from "react-router-dom";
+import ColorModeButton from "../buttons/ColorModeButton/ColorModeButton.tsx";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <header>
       <div className="container">
@@ -38,13 +40,16 @@ function Header() {
           </nav>
         </div>
 
-        <button className="reg-btn" name="sign-up">
+        <button className="reg-btn"
+          name="sign-up"
+          onClick={() => navigate("/registration")}
+        >
           Начать
         </button>
         <button className="reg-btn" name="log-in">
           Войти
         </button>
-        <BtnDarkMode />
+        <ColorModeButton />
       </div>
     </header>
   );

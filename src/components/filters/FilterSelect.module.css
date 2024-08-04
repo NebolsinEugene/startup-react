@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+
+.title{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(57, 59, 64, 1);
+    text-align: left;
+    line-height: 2.34;
+}
+
+.input {
+    width: 278px;
+    height: 66px;
+    color: rgba(82, 83, 96, 1);
+    border-radius: 9px;
+    margin-bottom: 15px;
+    background: url("./../../images/arrow.png") no-repeat 261px 20px;
+    border-style: none;
+    background-color: rgba(240, 244, 247, 1);
+    padding-right: 21px;
+    padding-left: 21px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}

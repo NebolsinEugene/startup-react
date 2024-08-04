@@ -1,0 +1,34 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+}
+
+.user_data{
+    display: flex;
+    justify-content: space-between;
+    
+}  
+.birthtime_input{
+    width: 940px;
+}
+
+.passport_loaders{
+    display: flex;
+    justify-content: space-between;
+}
+
+.passport_long_fields{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_content{
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+}
+
+.button_gap{
+    width:40px;
+}

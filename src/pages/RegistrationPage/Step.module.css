@@ -1,0 +1,13 @@
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.label{
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    text-align: left;
+}
