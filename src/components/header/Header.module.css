@@ -1,25 +1,20 @@
-:root {
-  /* Colors */
+/* :root {
   --blackpure: #000;
   --black: #171718;
   --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
 
-  /* Nav */
   --nav-bg: var(--black);
   --nav-border: var(--black-border);
   --nav-text: var(--white);
 
-  /* Header */
   --header-bg: var(--black);
   --header-text: var(--white);
 
-  /* Footer */
   --footer-bg: var(--black);
   --footer-text: var(--white);
 
-  /* Light mode */
   --page-bg: var(--white);
   --text-color: var(--#00594C);
   --title-1: var(--black);
@@ -27,10 +22,9 @@
   --project-card-bg: var(--white);
   --project-card-text: var(--black);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
-}
+} */
 
-.dark {
-  /* Dark mode */
+/* .dark {
   --page-bg: #21295c;
   --text-color: var(--white);
   --title-1: var(--green);
@@ -39,8 +33,9 @@
   --project-card-text: var(--white);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
   --nav-text: var(--black);
-}
-button.reg-btn {
+} */
+
+.reg_btn {
   font-size: 20px;
   padding: 13px 30px;
   border-radius: 10px;
@@ -52,7 +47,7 @@ button.reg-btn {
   color: white;
 }
 
-button.reg-btn:before {
+.reg_btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,11 +59,11 @@ button.reg-btn:before {
   transition: all 0.7s ease;
 }
 
-button.reg-btn:hover:before {
+.reg_btn:hover:before {
   width: 100%;
 }
 
-.dark-mode-btn {
+.dark_mode_btn {
   order: 9;
   position: relative;
   display: flex;
@@ -81,7 +76,7 @@ button.reg-btn:hover:before {
   margin-left: 32px;
 }
 
-.dark-mode-btn::before {
+.dark_mode_btn::before {
   content: "";
   position: absolute;
   top: 1px;
@@ -94,32 +89,39 @@ button.reg-btn:hover:before {
   transition: left 0.2s ease-in;
 }
 
-.dark-mode-btn__icon {
+.dark_mode_btn_icon {
   position: relative;
   z-index: 9;
 }
-.dark-mode-btn__icon img,
-.dark-mode-btn__icon svg {
+
+.dark_mode_btn_icon img,
+.dark_mode_btn_icon svg {
   max-width: 100%;
   height: auto;
 }
 
-.dark-mode-btn--active::before {
+.dark_mode_btn_active::before {
   left: 26px;
 }
 
-header {
+.container{
   font-size: 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
-header h1 {
+
+.logo {
   font-size: 40px;
   margin: 25px 10px 25px 0;
   padding: 0;
 }
-header .menu {
+
+.menu {
   margin-left: auto;
 }
-header nav li {
+
+.nav_list_item {
   display: inline-flex;
   margin-left: 32px;
 }
